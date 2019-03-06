@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "BitcoinCoreCoreSwift"
-  s.version      = "0.2"
+  s.version      = "0.4"
   s.summary      = "BitcoinCoreCoreSwift."
   s.description  = <<-DESC
                    BitcoinCoreCoreSwift is a complete toolkit to work with Bitcoin data structures.
