@@ -267,7 +267,6 @@
 				B019DDB8A0FBBB6FCFDA3DBE /* Pods-BitcoinCoreCoreSwift.debug.xcconfig */,
 				8CC04FDEB5FBA8A45FFE22F6 /* Pods-BitcoinCoreCoreSwift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -298,7 +297,7 @@
 		C5573615222F72830020F702 /* BitcoinCoreCoreSwift */ = {
 			isa = PBXGroup;
 			children = (
-				C5573644222F72A50020F702 /* Classes */,
+				C5573644222F72A50020F702 /* HDBitCoin */,
 				C5573616222F72830020F702 /* AppDelegate.swift */,
 				C5573618222F72830020F702 /* ViewController.swift */,
 				C557361A222F72830020F702 /* Main.storyboard */,
@@ -327,7 +326,7 @@
 			path = BitcoinCoreCoreSwiftUITests;
 			sourceTree = "<group>";
 		};
-		C5573644222F72A50020F702 /* Classes */ = {
+		C5573644222F72A50020F702 /* HDBitCoin */ = {
 			isa = PBXGroup;
 			children = (
 				C5573645222F72A50020F702 /* BTCPaymentMethodDetails.h */,
@@ -432,7 +431,7 @@
 				C55736A8222F72A50020F702 /* NS+BTCBase58.h */,
 				C55736A9222F72A50020F702 /* BTCChainCom.h */,
 			);
-			path = Classes;
+			path = HDBitCoin;
 			sourceTree = "<group>";
 		};
 		C55736DA222F72AB0020F702 /* Vendor */ = {
