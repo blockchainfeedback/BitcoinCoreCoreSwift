@@ -1,0 +1,11 @@
+module libscrypt [system][extern_c] {
+  header "../Vendor/libscrypt/libscrypt.h"
+  export *
+}
+
+module CoreBitcoin [system] {
+  header "../BitcoinCoreCoreSwift/Classes/CoreBitcoin.h"
+  header "../BitcoinCoreCoreSwift/Classes/NSData+BTCData.h"
+  header "../BitcoinCoreCoreSwift/Classes/NS+BTCBase58.h"
+  export *
+}

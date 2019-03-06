@@ -1,0 +1,16 @@
+PODS:
+  - GRKOpenSSLFramework (1.0.2.16)
+
+DEPENDENCIES:
+  - GRKOpenSSLFramework
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GRKOpenSSLFramework
+
+SPEC CHECKSUMS:
+  GRKOpenSSLFramework: 35944e317e6336b2944ad70b059d84db6b2d8532
+
+PODFILE CHECKSUM: 727afc39fbc504e88a24d28b45d7b7c52139a7ad
+
+COCOAPODS: 1.6.1
