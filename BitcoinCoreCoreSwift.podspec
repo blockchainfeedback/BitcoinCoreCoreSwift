@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { "Jackie Yip" => "jiajie.ye@rylink.com" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/blockchainfeedback/BitcoinCoreCoreSwift.git", :tag => "#{s.version}" }
-  s.source_files = "BitcoinCoreCoreSwift/Classes/*.{h,m}", "Vendor/**/*.{h,m,c}"
+  s.source_files = "BitcoinCoreCoreSwift/HDBitCoin/*.{h,m}", "Vendor/**/*.{h,m,c}"
   s.requires_arc = true
   s.dependency "GRKOpenSSLFramework"
 
