@@ -4,8 +4,8 @@ module libscrypt [system][extern_c] {
 }
 
 module BitcoinCoreCoreSwift [system] {
-  header "../BitcoinCoreCoreSwift/Classes/CoreBitcoin.h"
-  header "../BitcoinCoreCoreSwift/Classes/NSData+BTCData.h"
-  header "../BitcoinCoreCoreSwift/Classes/NS+BTCBase58.h"
+  header "../BitcoinCoreCoreSwift/HDBitCoin/CoreBitcoin.h"
+  header "../BitcoinCoreCoreSwift/HDBitCoin/NSData+BTCData.h"
+  header "../BitcoinCoreCoreSwift/HDBitCoin/NS+BTCBase58.h"
   export *
 }
